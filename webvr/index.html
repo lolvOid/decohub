@@ -53,7 +53,7 @@
 
 			$("#loading").text("Loading Room...");
 			var loader = new THREE.FileLoader(manager);
-			loader.load( '../app.json', function ( text ) {
+			loader.load( '/app.json', function ( text ) {
 
 				var player = new APP.Player();
 				player.load( JSON.parse( text ) );
