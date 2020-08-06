@@ -48,7 +48,7 @@
         <li class="slide dark">
           <!-- Background-->
           <div class="hero lg vbottom">
-            <div style="background-image: url(../images/office/vr.jpg);" class="bg faded parallax"></div>
+            <div style="background-image: url(images/office/vr.jpg);" class="bg faded parallax"></div>
             <div class="container text-right">
               <!-- Content-->
               <div class="content">
@@ -61,7 +61,7 @@
         <li class="slide dark">
           <!-- Background-->
           <div class="hero lg vcenter vcenter">
-            <div style="background-image: url(../images/office/02.jpg);" class="bg faded parallax"></div>
+            <div style="background-image: url(images/office/02.jpg);" class="bg faded parallax"></div>
             <div class="container text-center">
               <!-- Content-->
               <div class="content">
