@@ -13,7 +13,7 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://decohubke.herokuapp.com/">
+  <meta property="og:url" content="">
   <meta property="og:title" content="Try DecoHub to Design Your Dream Room">
   <meta property="og:description"
     content="3D Visualization website for interior Design featuring WebXR, 3D Floor Plan and Image Processing.">
@@ -21,17 +21,17 @@
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://decohubke.herokuapp.com/">
+  <meta property="twitter:url" content="">
   <meta property="twitter:title" content="Try DecoHub to Design Your Dream Room">
   <meta property="twitter:description"
     content="3D Visualization website for interior Design featuring WebXR, 3D Floor Plan and Image Processing.">
   <meta property="twitter:image" content="images/thumbs/image.jpg">
 
-  <link rel="stylesheet" type="text/css" href="../css/core.css">
-  <link rel="stylesheet" type="text/css" href="../css/base.css">
-  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+  <link rel="stylesheet" type="text/css" href="css/core.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <script src="../js/assets/jquery.js"></script>
+  <script src="js/assets/jquery.js"></script>
 </head>
 
 <body>
@@ -103,18 +103,18 @@
           <a>
 
             <div class="col-md-4">
-              <h4>With XR Device</h4><img alt="" src="../images/05.jpg" class="item">
+              <h4>With XR Device</h4><img alt="" src="images/05.jpg" class="item">
             </div>
           </a>
           <a>
             <div class="col-md-4">
-              <h4>3D Room </h4><img alt="" src="../images/06.jpg" class="item">
+              <h4>3D Room </h4><img alt="" src="images/06.jpg" class="item">
             </div>
           </a>
           <a>
 
             <div class="col-md-4">
-              <h4>With XR Device</h4><img alt="" src="../images/07.jpg" class="item">
+              <h4>With XR Device</h4><img alt="" src="images/07.jpg" class="item">
             </div>
           </a>
         </div>
@@ -123,16 +123,16 @@
     <!-- Footer-->
     <?php include "include/footer.php"?>
   </div>
-  <script src="../js/assets/jquery.js"></script>
-  <script src="../js/assets/bootstrap.js"></script>
-  <script src="../js/assets/imagesloaded.pkgd.min.js"></script>
-  <script src="../js/assets/validation.js"></script>
-  <script src="../js/assets/masonry.pkgd.min.js"></script>
-  <script src="../modules/tera-slider/tera-slider.js"></script>
-  <script src="../modules/tera-lightbox/tera-lightbox.js"></script>
-  <script src="../js/assets/animsition.js"></script>
-  <script src="../js/functions.js"></script>
-  <script src="../js/base.js"></script>
+  <script src="js/assets/jquery.js"></script>
+  <script src="js/assets/bootstrap.js"></script>
+  <script src="js/assets/imagesloaded.pkgd.min.js"></script>
+  <script src="js/assets/validation.js"></script>
+  <script src="js/assets/masonry.pkgd.min.js"></script>
+  <script src="modules/tera-slider/tera-slider.js"></script>
+  <script src="modules/tera-lightbox/tera-lightbox.js"></script>
+  <script src="js/assets/animsition.js"></script>
+  <script src="js/functions.js"></script>
+  <script src="js/base.js"></script>
 </body>
 
 </html>
