@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" href="./css/all.min.css">
-	<script src="./js/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="./css/fontawesome.min.css">
 
 	<style>
@@ -20,6 +20,7 @@
 			overflow: hidden;
 		}
 	</style>
+	<script src="./js/jquery.min.js"></script>
 </head>
 
 <body ontouchstart="">
@@ -44,16 +45,17 @@
 	<script type="module">
 
 		import * as THREE from './js/three.module.js';
-			import { APP } from './js/app.js';
-			import { VRButton } from './js/VRButton.js';
+		import { APP } from './js/app.js';
+		import { VRButton } from './js/VRButton.js';
 			
+		var app = "app.json";
 			window.THREE = THREE; // Used by APP Scripts.
 			window.VRButton = VRButton; // Used by APP Scripts.
 			var manager = new THREE.LoadingManager();
 
 			$("#loading").text("Loading Room...");
 			var loader = new THREE.FileLoader(manager);
-			loader.load( './js/app.json', function ( text ) {
+			loader.load(app, function ( text ) {
 
 				var player = new APP.Player();
 				player.load( JSON.parse( text ) );
