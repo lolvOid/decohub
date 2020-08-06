@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Glass House Room</title>
+		<meta charset="utf-8">
+		<meta name="generator" content="Three.js Editor">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/all.min.css">
+		<script src="./js/jquery.min.js"></script>
+		<link rel="stylesheet" href="./css/fontawesome.min.css">
 
-<head>
-	<title>Glass House Room</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/all.min.css">
-	<script src="./js/jquery.min.js"></script>
-	<link rel="stylesheet" href="./css/fontawesome.min.css">
-
-	<style>
-		body {
-			font-family: sans-serif;
-			font-size: 11px;
-			background-color: #fff;
-			margin: 0px;
-			overflow: hidden;
-		}
-	</style>
-</head>
-
-<body ontouchstart="">
-
-	<script src="js/HelioWebXRPolyfill.js"></script>
-
-	<div class="navbar">
-		<div class="col-md-4">
-			<h1> Web VR Room</h1>
+		<style>
+			body {
+				font-family: sans-serif;
+				font-size: 11px;
+				background-color: #fff;
+				margin: 0px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body ontouchstart="">
+		
+		<script src="./js/HelioWebXRPolyfill.js"></script>
+ 
+		<div class="navbar">
+			<div class="col-md-4">
+				<h1> Web VR Room</h1>
+			</div>
+			<div class="col-md-6 text-center">
+				<h3 id="name"></h3>
+			</div>
+			<div class="col-md-2">
+				<h6 id="loading">No Object</h2>         
+			</div>    
+			
 		</div>
-		<div class="col-md-6 text-center">
-			<h3 id="name"></h3>
-		</div>
-		<div class="col-md-2">
-			<h6 id="loading">No Object</h2>
-		</div>
+		
+		
 
-	</div>
+		<script type="module">
 
-
-
-	<script type="module">
-
-		import * as THREE from './js/three.module.js';
+			import * as THREE from './js/three.module.js';
 			import { APP } from './js/app.js';
 			import { VRButton } from './js/VRButton.js';
 			
@@ -52,7 +51,7 @@
 
 			$("#loading").text("Loading Room...");
 			var loader = new THREE.FileLoader(manager);
-			loader.load( "./app.json", function ( text ) {
+			loader.load( 'app.json', function ( text ) {
 
 				var player = new APP.Player();
 				player.load( JSON.parse( text ) );
@@ -89,8 +88,7 @@
 			THREE.Cache.enabled = true;
 		</script>
 
-
-	<script src="./js/bootstrap.min.js"></script>
-</body>
-
+		
+		<script src="./js/bootstrap.min.js"></script>	
+	</body>
 </html>
