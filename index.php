@@ -132,7 +132,7 @@
               <source src="images/thumbs/video.mp4">
             </video>
             <a style="background-color:#e0e0e0;color:black" class="btn  btn-outline-dark " id="fullscreen"
-              href="/floorplan/">Design Now
+              href="floorplan/">Design Now
             </a>
           </div>
         </div>
