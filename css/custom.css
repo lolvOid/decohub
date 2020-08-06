@@ -1,0 +1,212 @@
+/* This stylesheet is meant for custom styles, on top of the Bone Template */
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 60px;
+    cursor: pointer;
+}
+
+.label_color{
+    line-height: 20px;
+    font-family: 'Roboto';
+}
+
+#favcolor{
+    border-radius: 100px;
+
+    width: 40px;
+    height: 40px;
+}
+
+#favcolor:hover{
+    border-radius: 0px;
+}
+
+.cc-selector input {
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .color1 {
+    background-image: url(../images/ui/colors/color_414858.png);
+  }
+  
+  .color2 {
+    background-image: url(../images/ui/colors/color_6b1424.png);
+  }
+  .color3 {
+    background-image: url(../images/ui/colors/color_9c8d94.png);
+  }
+  .color4 {
+    background-image: url(../images/ui/colors/color_acb4c1.png);
+  }
+  .color5 {
+    background-image: url(../images/ui/colors/color_b1aa90.png);
+  }
+  .color6 {
+    background-image: url(../images/ui/colors/color_c3c4c9.png);
+  }
+  .color7 {
+    background-image: url(../images/ui/colors/color_cfbbb4.png);
+  }
+  .color8 {
+    background-image: url(../images/ui/colors/color_d4d4d2.png);
+  }
+  .color9 {
+    background-image: url(../images/ui/colors/color_e6cc82.png);
+  }
+  .cc-selector input:active +.color-cc {
+    opacity: 1;
+
+  }
+  
+  .cc-selector input:checked +.color-cc {
+    -webkit-filter: none;
+    -moz-filter: none;
+    filter: none;
+
+  }
+  
+  .color-cc {
+    
+    margin-top: 35px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    -webkit-filter: opacity(.7);
+    -moz-filter:  opacity(.7);
+    filter:  opacity(.7);
+    
+  }
+  
+  .color-cc:hover {
+    -webkit-filter:opacity(.9);
+    -moz-filter:  opacity(.9);
+    filter:  opacity(.9);
+  }
+
+ 
+  
+
+  .text-center{
+    text-align: center;
+  }
+  .block-center{
+     margin: 0 auto;
+  }
+  .color-picker{
+    width: 500x;
+    height: auto;
+    padding: 5px 20px 5px 20px;
+   
+  }
+  .color-list{
+    list-style: none;
+    padding: 0;
+  }
+  .color-list li{
+    display: inline-block;
+    margin: 3px;
+  }
+  .color{
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    background-color: attr(data-color);
+    transition: ease-in 0.3s;
+  }
+  /* .color:not(.active):hover{
+    cursor: pointer;
+    transform: scale(1.2);
+  } */
+  .color.active {
+    border: 5px solid #ddd;
+    width: 105px;
+    height: 105px;
+    transition: transform 0.3s;
+  }
+
+  #download{
+    font-size: 150px;
+    color : #0f0f0f;
+  }
+
+  
+  @media screen and (max-device-width: 640px){
+    /* some CSS here */
+    #parent > button {
+      opacity: 0.3;
+      position: absolute;
+      /* float: none; */
+      text-align: center;
+      left:30%;
+      top:60%;
+      transition: 0.5s;
+    }
+
+    iframe {
+      margin: auto; display: block;
+      width: 100%;
+      height: 35em;
+      border: none;
+    }
+  }
+  /* #### Desktops #### */
+@media screen and (min-width: 1024px){
+  /* some CSS here */
+  #parent > button {
+    opacity: 0.3;
+    position: absolute;
+    /* float: none; */
+    text-align: center;
+    left:45%;
+    top:50%;
+    transition: 0.5s;
+  }
+
+  iframe {
+    margin: auto; display: block;
+    width: 100%;
+    height: 50em;
+    border: none;
+  }
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+  #parent > button {
+    opacity: 0.3;
+    position: absolute;
+    /* float: none; */
+    text-align: center;
+    left:40%;
+    top:55%;
+    transition: 0.5s;
+  }
+
+  iframe {
+    margin: auto; display: block;
+    width: 100%;
+    height: 50em;
+    border: none;
+  }
+}
+  
+  #parent > button {
+    opacity: 1;
+  }  
+    

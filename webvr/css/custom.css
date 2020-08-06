@@ -1,0 +1,44 @@
+#hud {
+    position: fixed;
+    display: block;
+    padding:  50px;
+    float: left;
+    height: 700px;
+    width: 500px;
+    background-color: aliceblue;
+}
+.btn-group{
+     
+}
+#gui_container{
+    position: fixed;
+    
+    top: 200px;
+    left:90%;
+    right:0px;
+    bottom: 0;
+  }
+  #gui{
+    transform:translate(-50%, -75px);
+    
+  }
+
+  .ui {
+    position: absolute;
+  }
+  .btn-ui:active{
+    border-color: aqua;
+    border-width: 0.3em;
+    border-style: solid;
+  }
+  .btn-ui:hover{
+    border-color: aqua;
+    border-width: 0.3em;
+    border-style: solid;
+  }
+  .btn-ui{
+    
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  }
