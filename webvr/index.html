@@ -23,7 +23,7 @@
 
 <body ontouchstart="">
 
-	<script src="./js/HelioWebXRPolyfill.js"></script>
+	<script src="js/HelioWebXRPolyfill.js"></script>
 
 	<div class="navbar">
 		<div class="col-md-4">
@@ -52,7 +52,7 @@
 
 			$("#loading").text("Loading Room...");
 			var loader = new THREE.FileLoader(manager);
-			loader.load( 'app.json', function ( text ) {
+			loader.load( "./app.json", function ( text ) {
 
 				var player = new APP.Player();
 				player.load( JSON.parse( text ) );
