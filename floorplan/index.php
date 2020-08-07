@@ -2,8 +2,26 @@
 <html>
 
 <head>
-  <title>Decohub Floorplan
-  </title>
+  <title>Decohub Floorplan </title>
+
+  <!-- Primary Meta Tags -->
+<title>Design Your Room</title>
+<meta name="title" content="Design Your Room">
+<meta name="description" content="We remove the stress of expensive home furnishing purchases and hassle of returns, while providing a fun tool for anyone interested in interior design.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hexcreativemm.co/decohub/floorplan/">
+<meta property="og:title" content="Design Your Room">
+<meta property="og:description" content="We remove the stress of expensive home furnishing purchases and hassle of returns, while providing a fun tool for anyone interested in interior design.">
+<meta property="og:image" content="https://i.ibb.co/nCSGvtN/10.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://hexcreativemm.co/decohub/floorplan/">
+<meta property="twitter:title" content="Design Your Room">
+<meta property="twitter:description" content="We remove the stress of expensive home furnishing purchases and hassle of returns, while providing a fun tool for anyone interested in interior design.">
+<meta property="twitter:image" content="https://i.ibb.co/nCSGvtN/10.png">
 
   <link href="css/bootstrap.css" rel="stylesheet">
   <link href="css/example.css" rel="stylesheet">

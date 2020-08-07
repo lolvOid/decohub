@@ -3,12 +3,29 @@
 
 <head>
   <title>DecoHub</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta charset="utf-8">
+  <!-- Primary Meta Tags -->
+<title>DecoHub by HEX Creative</title>
+<meta name="title" content="DecoHub by HEX Creative">
+<meta name="description" content="Create your own 3D scene and choose from a wide selection of sample furnitures and start designing!">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hexcreativemm.co/decohub/">
+<meta property="og:title" content="DecoHub by HEX Creative">
+<meta property="og:description" content="Create your own 3D scene and choose from a wide selection of sample furnitures and start designing!">
+<meta property="og:image" content="https://i.ibb.co/8rXTnRw/decohub-By-HEX.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://hexcreativemm.co/decohub/">
+<meta property="twitter:title" content="DecoHub by HEX Creative">
+<meta property="twitter:description" content="Create your own 3D scene and choose from a wide selection of sample furnitures and start designing!">
+<meta property="twitter:image" content="https://i.ibb.co/8rXTnRw/decohub-By-HEX.jpg">
+
   <link rel="stylesheet" type="text/css" href="css/core.css">
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
-  <link rel="icon" type="image/png" href="favicon.png?v=2">
+  <link rel="icon" type="image/png" href="images/favicon.png">
   <script src="js/assets/jquery.js"></script>
 </head>
 

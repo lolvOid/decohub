@@ -3,39 +3,44 @@
 
 <head>
   <title>DecoHub</title>
-<!-- Primary Meta Tags -->
-<title>DecoHub by HEX Creative</title>
-<meta name="title" content="DecoHub by HEX Creative">
-<meta name="description" content="WebXR Experience">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8">
+  <!-- Primary Meta Tags -->
+  <title>Try DecoHub to Design Your Dream Room</title>
+  <meta name="title" content="Try DecoHub to Design Your Dream Room">
+  <meta name="description"
+    content="3D Visualization website for interior Design featuring WebXR, 3D Floor Plan and Image Processing.">
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hexcreativemm.co/decohub/web-vr">
-<meta property="og:title" content="DecoHub by HEX Creative">
-<meta property="og:description" content="WebXR Experience">
-<meta property="og:image" content="https://i.ibb.co/VxkPbS0/07.jpg">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:title" content="Try DecoHub to Design Your Dream Room">
+  <meta property="og:description"
+    content="3D Visualization website for interior Design featuring WebXR, 3D Floor Plan and Image Processing.">
+  <meta property="og:image" content="images/thumbs/image.jpg">
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://hexcreativemm.co/decohub/web-vr">
-<meta property="twitter:title" content="DecoHub by HEX Creative">
-<meta property="twitter:description" content="WebXR Experience">
-<meta property="twitter:image" content="https://i.ibb.co/VxkPbS0/07.jpg">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="">
+  <meta property="twitter:title" content="Try DecoHub to Design Your Dream Room">
+  <meta property="twitter:description"
+    content="3D Visualization website for interior Design featuring WebXR, 3D Floor Plan and Image Processing.">
+  <meta property="twitter:image" content="images/thumbs/image.jpg">
 
   <link rel="stylesheet" type="text/css" href="css/core.css">
   <link rel="stylesheet" type="text/css" href="css/base.css">
   <link rel="stylesheet" type="text/css" href="css/custom.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
-  <script src="js/assets/jquery.js"></script>
+  <script src="./js/asets/jquery.js"></script>
 </head>
 
 <body>
   <div class="body-overlay"></div>
-  <?php include "include/menu.php"?>
+  <?php include "./include/menu.php"?>
   <!-- Wrapper-->
   <div id="wrapper" class="container-fluid smooth-transition">
     <!-- Header-->
-    <?php include "include/header.php"?>
+    <?php include "./include/header.php"?>
     <!-- Hero & Tera Slider-->
     <section class="slider">
       <ul class="slides">
@@ -116,7 +121,7 @@
       </div>
     </section>
     <!-- Footer-->
-    <?php include "include/footer.php"?>
+    <?php include "./include/footer.php"?>
   </div>
   <script src="js/assets/jquery.js"></script>
   <script src="js/assets/bootstrap.js"></script>
